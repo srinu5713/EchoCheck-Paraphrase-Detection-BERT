@@ -48,14 +48,13 @@ Welcome to EchoCheck, a state-of-the-art paraphrase detection system leveraging 
 
 ## Project Structure
 
-.
-├── build/ # Compiled files (alternatively dist)
-├── docs/ # Documentation files (alternatively doc)
-├── src/ # Source files (alternatively lib or app)
-├── test/ # Automated tests (alternatively spec or tests)
-├── tools/ # Tools and utilities
-├── LICENSE # License file
-└── README.md # Project documentation
+-`build_model.py`: Script for training the BERT model on the paraphrase detection task.
+-`run_model.py`: Script for using the trained model to predict if two sentences are paraphrases.
+-`evaluate_model.py`: Script for evaluating the trained model on the test dataset.
+-`data/`: Directory to store datasets.
+-`Paraphrase_Detection.ipynb`: Jupyter notebook containg the entire process
+-`requirements.txt`: List of dependencies and libraries required to run the project.
+-`README.md`: Project documentation.
 
 
 ## Results
